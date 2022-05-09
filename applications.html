@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Applications</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<section class="section-big main-color">
+   <div class="container">
+
+      <div class="row">
+         <div class="col-md-12 pb-20 text-center"> 
+            <h2 class="section-title mb-10"><span> Some <strong class="primary-color">Applications</strong> Of Information Theory and Coding</span></h2>
+           
+            <div class="exp-separator center-separator">
+               <div class="exp-separator-inner">
+               </div>
+            </div>
+
+         </div>
+      </div>
+
+      <div class="row">
+         <div class="col-md-4">
+            <ul class="i-list medium">
+               <li class="i-list-item">
+                  <div class="icon"> <i class="fa fa-compress"></i> </div>
+
+                  <div class="icon-content">
+                     <h3 class="title">Data Compression</h3>
+                     <p class="sub-title">
+                        Applications of fundamental topics of information theory include source coding/data compression (e.g. for ZIP files), and channel coding/error detection and correction (e.g. for DSL). 
+                        In particular, if the entropy is less than the average length of an encoding, compression is possible.
+                     </p>
+                  </div>
+                  <div class="iconlist-timeline"></div>
+               </li>
+               <li class="i-list-item">
+                  <div class="icon"> <i class="fa fa-exchange"></i> </div>
+
+                  <div class="icon-content">
+                     <h3 class="title">Linguistics </h3>
+                     <p>
+                        While information theory has been most helpful in the design of more efficient telecommunication systems, it has also motivated linguistic studies of the relative frequencies of words, the length of words, and the speed of reading.
+                        Information theory provides a means for measuring redundancy or efficiency of symbolic representation within a given language.
+                     </p>
+                  </div>
+                  <div class="iconlist-timeline"></div>
+               </li>
+              
+            </ul>
+         </div>
+         <div class="col-md-4">
+            <ul class="i-list medium">
+               <li class="i-list-item">
+                  <div class="icon"> <i class="fa fa-bug"></i> </div>
+                  <div class="icon-content">
+                     <h3 class="title">Error Detecting &amp; Error Correcting </h3>
+                     <p class="sub-title">
+                        Error-correcting codes add extra bits to help correct errors and thus operate in the opposite direction from compression. Error-detecting codes, on the other hand, indicate that an error has occurred but do not automatically correct the error. 
+                     </p>
+                  </div>
+                  <div class="iconlist-timeline"></div>
+               </li>
+               <li class="i-list-item">
+                  <div class="icon"> <i class="fa fa-male"></i> </div>
+                  <div class="icon-content">
+                     <h3 class="title">Physiology</h3>
+                     <p>
+                        the nervous system is, above all else, a channel for the transmission of information, and the brain is, among other things, an information processing and messaging centre. Because nerve signals generally consist of pulses of electrical energy, the nervous system appears to be an example of discrete communication over a noisy channel. Thus, both physiology and information theory are involved in studying the nervous system.
+                     </p>
+                  </div>
+                  <div class="iconlist-timeline"></div>
+               </li>
+            </ul>
+         </div>
+         <div class="col-md-4">
+            <ul class="i-list medium">
+               <li class="i-list-item">
+                  <div class="icon"> <i class="fa fa-lock"></i> </div>
+                  <div class="icon-content">
+                     <h3 class="title">Cryptology</h3>
+                     <p class="sub-title">
+                        Cryptographic systems employ special information called a key to help encrypt and decrypt messages. Sometimes different keys are used for the encoding and decoding, while in other instances the same key is used for both processes. 
+                     </p>
+                  </div>
+                  <div class="iconlist-timeline"></div>
+               </li>
+              
+             
+            </ul>
+         </div>
+      </div>
+   </div>
+</section>
+
+<style type="text/css">
+body{margin-top:20px;}
+/* --------------------------------------------
+    ICON LIST
+-------------------------------------------- */
+
+ul.i-list {
+   padding-left: 0;
+   list-style: none;
+}
+
+ul.i-list .list-title {
+   display: inline-block;
+   position: absolute;
+}
+
+ul.i-list li {
+   padding: 2px 0px;
+}
+
+ul.i-list i.fa {
+   margin-right: 7px;
+}
+
+ul.i-list .list-item {
+   margin-top: 3px;
+   display: inline-block;
+}
+
+ul.i-list.filled i.fa {
+   color: white;
+   font-size: 9px;
+   padding: 5px;
+   border-radius: 50%;
+}
+
+ul.e-icon-list.filled li {
+   padding: 2px 0px;
+   line-height: 24px;
+}
+
+ul.i-list.underline li {
+   padding: 6px 0px;
+   border-bottom: 1px solid #eee;
+}
+
+ul.i-list.medium li {
+   padding-bottom: 25px;
+   position: relative;
+}
+
+ul.i-list.medium .icon {
+   margin-right: 25px;
+   color: white;
+   font-size: 25px;
+   text-align: center;
+   line-height: 68px;
+   width: 68px;
+   height: 68px;
+   border-radius: 50%;
+   box-shadow: 0 5px 16px rgba(0,0,0,.28);
+   position: relative;
+   z-index: 1;
+   /*background-image: url(../img/crease.svg) !important;
+   -moz-background-size: 100% 100% !important;
+   background-size: 100% 100% !important;
+   background-position: center center !important;*/
+}
+
+ul.i-list.medium .icon i.fa {
+   margin: 0;
+}
+
+ul.i-list.medium.bordered .icon {
+   background: white;
+   color: inherit;
+   border: 2px solid #8fc135;
+   font-size: 26px;
+   color: #8fc135;
+   position: relative;
+   z-index: 1;
+   box-shadow: 0 8px 22px rgba(0,0,0,.28);
+}
+
+ul.i-list.medium .list-item {
+   text-transform: uppercase;
+}
+
+ul.i-list.large .icon {
+   margin-right: 30px;
+   background: #d0d0d0;
+   color: white;
+   font-size: 30px;
+   text-align: center;
+   line-height: 80px;
+   width: 80px;
+   height: 80px;
+   border-radius: 50%;
+   box-shadow: 0 8px 22px rgba(0,0,0,.28);
+}
+
+ul.i-list.large .icon i.fa {
+   margin: 0;
+}
+
+ul.i-list.large.bordered .icon {
+   background: inherit;
+   color: inherit;
+   border: 2px solid #8fc135;
+   font-size: 30px;
+   color: #8fc135;
+}
+
+ul.i-list.large .list-item {
+   text-transform: uppercase;
+}
+
+ul.i-list .icon {
+   float: left;
+}
+
+ul.i-list.right {
+   text-align: right;
+}
+
+ul.i-list.right .icon {
+   float: right;
+}
+
+ul.i-list.right .icon {
+   float: right;
+   margin-right: 0;
+   margin-left: 25px;
+}
+
+ul.i-list.large.right .icon {
+   float: right;
+   margin-right: 0;
+   margin-left: 30px;
+}
+
+ul.i-list.large li {
+   margin-bottom: 25px;
+}
+
+ul.i-list .icon-content {
+   overflow: hidden;
+}
+
+ul.i-list .icon-content .title {
+   margin-top: 5px;
+   margin-bottom: 10px;
+}
+
+.left-line .iconlist-timeline {
+   left: auto;
+   right: 35px;
+}
+
+.iconlist-timeline {
+   position: absolute;
+   top: 1%;
+   left: 32px;
+   width: 1px;
+   height: 99%;
+   border-right-width: 1px;
+   border-right-style: dashed;
+   height: 100%;
+   border-color: #ccc;
+}
+.icon{
+        background-color: #364143;
+}
+separator, .testimonial-two, .exp-separator-inner {
+    border-color: #0cb4ce;
+}
+.exp-separator {
+    border-color: #0cb4ce;
+    border-top-width: 2px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    width: 100%;
+    max-width: 55px;
+    border-top-style: solid;
+    height: auto;
+    clear: both;
+    position: relative;
+    z-index: 11;
+}
+.section-sub-title {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-family: Poppins;
+}
+.section-title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 0.45em;
+    margin-bottom: 0.35em;
+    color: #303133;
+    font-family: Poppins;
+    letter-spacing: -0.02em;
+}
+.pb-20 {
+    padding-bottom: 20px !important;
+}
+.text-center {
+    text-align: center!important;
+}
+.center-separator .exp-separator-inner, .center-separator.exp-separator {
+    margin-left: auto;
+    margin-right: auto;
+}
+</style>
+
+<script type="text/javascript">
+
+</script>
+</body>
+</html>
